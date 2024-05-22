@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Data</title>
+</head>
+<body>
+    <h1>Model Data</h1>
+    <ul>
+        <li>Model data merupakan kumpulan konseptual untuk menggambarkan data, hubungan data dan batasan data</li>
+        <li>Model data dibuat dengan tujuan agar kita bisa tahu makna dari data dan juga relasi antar data nya</li>
+        <li>Terdapat banyak cara untuk membuat model data, dan yang paling populer adalah menggunakan ERD (Entity Relationship Diagram)</li>
+    </ul>
+
+    <h2>Fakta Dunia Nyata</h2>
+    <ul>
+        <li>Seperti yang dibahas diawal tentang data, yaitu fakta dunia nyata (real word)</li>
+        <li>Fkata dunia nyata disini bukan berarti data harus dalam bentuk sesuai yang berwujud, bisa juga sesuatu yang tidak berwujud</li>
+        <li>Selain itu, fakta dunia nyata dalam basis data juga biasanya cakupannya lenih sempit, mengikuti ruang lingkup yang sedang ditinjau</li>
+        <li>Misal data pengguna dalam ruang lingkup Bank(yaitu nasabah), pasti berbeda dengan ruang lingkup rumah sakit (pasien)</li>
+    </ul>
+
+    <h2>Entity Relationship Model</h2>
+    <ul>
+        <li>Model data dalam basis data, kebanyakan dibuat dalam bentuk Entity Relationship Model</li>
+        <li>Dalam model ER, data dunia nyata direpsentasikan dalam komponen-komponen</li>
+        <li>Terdapat beberapa komponen dalam model ER, yaitu Entity, Atribute dan Relationship</li>
+    </ul>
+
+    <h3>Entity</h3>
+    <ul>
+        <li>Entity merupakan individu yang mewakili data(fakta) yang nyata, dan bisa dibedakan dari sesuatu yang lain</li>
+        <li>Saat menentukan sebuah Entity, kita perlu lohat ruang lingkup yang sedang kita kerjakan,</li>
+        <li>Contoh, orang mungkin kita bisa anggap sebagai satu Entity, namun dalam ruang lingkup Rumah Sakit, bisa jadi tidak dibuat dalam satu Entity, karena tergantung jenisnya, misal apakah Entity Pasien atau Dokter</li>
+    </ul>
+
+    <h3>Atribute</h3>
+    <ul>
+        <li>Setiap Entity pasti memiliki Atribute yang mendeskripsikan karateristik dari Entity tersebut</li>
+        <li>Penetuan Atribute dalam Entity biasanya berdasarkan fakta yang ada dan dibutuhkan dalam ruang lingku nya saja
+        </li>
+        <li>Contoh dalam Entity Pasien, kita bisa menambahkan Atribute seper Nomor Pasien, Nama Pasien, Alamat Pasien dan lain-lain</li>
+        <li>Dan fakta yang tidak masuk dalam ruang lingkup mungkin tidak kita perlu jadikan Atribute, misalnya Hobby pasien, Harta Pasien, dan lain-lain</li>
+        <li>Dalam Atribute, biasanya terdapat Atribute kunci yang digunakan sebagai kunci representasu dari Entity tersebut, contoh misal Nomor pasien</li>
+    </ul>
+
+    <h3>Relationship</h3>
+    <ul>
+        <li>Relationship merupakan hubungan antar Entity</li>
+        <li>Detail tentang Relationship akan dibahas di materi Model Data Relationship</li>
+        <li>Contoh misal dalam ruang lingkup Rumah Sakit, hubungan Entity Dokter dan Pasien adalah merawat misalnya</li>
+    </ul>
+
+    <h3>Entity Relationship Diagram</h3>
+    <ul>
+        <li>Setelah menentukan Entity, Atribute dan Relationship, selanjutnya dalam ER, biasanya akan dibuat dalam bentuk diagram
+        </li>
+        <li>Entity Relationship Diagram (ERD) sangatlah sederhana, kita bisa merepresentasikan tiap Entity, Atribute, Relationship dan hubungan (Link) dengan gambar seperti di halaman selanjutnya</li>
+        <li>
+            <img src="/images/erd.png" alt="erd-komponen" title="erd-komponen">
+        </li>
+    </ul>
+</body>
+</html>
